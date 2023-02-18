@@ -1,0 +1,64 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  background-color: #212529;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+.purp {
+  background-color: blueviolet;
+  color: white;
+}
+
+.list:hover, .active {
+  background-color: #494f55;
+}
+
+.round {
+  border-radius: 1rem;
+}
+
+.dot {
+  transform: scale(0);
+  /* transition: 0.5s; */
+}
+
+.card-vid:hover .dot{
+  transform: scale(1);
+}
+
+.text-color {
+  color: #c3c4c5;
+}
+
+.scroll {
+  height: 100vh;
+  overflow: scroll;
+}
+
+.sub-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.links {
+  cursor: pointer;
+  color: rgb(240, 234, 234);
+  font-size: 14px;
+}
+
+.cr {
+  font-size: 14px;
+}
+
+
+ 
